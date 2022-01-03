@@ -1,0 +1,25 @@
+@import "./mixins";
+@import "./variables";
+@import "./fonts";
+
+html,
+body {
+  scroll-behavior: smooth;
+  background: #3f50b5 !important;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.contentWrapper {
+  padding-top: 64px;
+  background: #f3f3f3;
+  height: 100vh;
+}

@@ -1,0 +1,11 @@
+@mixin user-name-link {
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+@mixin button-camel-casing {
+  text-transform: none !important;
+}

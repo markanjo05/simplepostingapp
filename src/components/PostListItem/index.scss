@@ -1,0 +1,7 @@
+@import "src/styles/main";
+
+.postListItemWrapper {
+  .postAuthorLink {
+    @include user-name-link;
+  }
+}

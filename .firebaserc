@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "planscreator-269db"
+  },
+  "targets": {
+    "planscreator-269db": {
+      "hosting": {
+        "prod": [
+          "simplepostingapp-mg"
+        ]
+      }
+    }
+  }
+}

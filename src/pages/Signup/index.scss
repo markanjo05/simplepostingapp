@@ -1,0 +1,26 @@
+.signupContainer {
+  .selectPhotoBtn {
+    height: 100px;
+    width: 100px;
+  }
+
+  .profileAvatar {
+    height: 65px !important;
+    width: 65px !important;
+    object-fit: cover !important;
+  }
+
+  .selectedAvatar {
+    background: #3f51b5b5 !important;
+  }
+
+  .imageSelectionWrapper {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+}

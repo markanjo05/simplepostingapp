@@ -1,0 +1,7 @@
+@import "src/styles/main";
+
+.likesDialogWrapper {
+  .likerLink {
+    @include user-name-link;
+  }
+}

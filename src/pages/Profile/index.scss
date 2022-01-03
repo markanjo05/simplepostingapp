@@ -1,0 +1,38 @@
+.coverSectionWrapper {
+  background: #f3f3f3;
+
+  .editProfileBtn {
+    width: auto;
+    text-transform: none !important;
+    font-weight: bold !important;
+  }
+
+  .profilePageAvatar {
+    width: 170px !important;
+    height: 170px !important;
+  }
+
+  .profilePageName {
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+  }
+
+  .selectPhotoLabel {
+    font-size: 13px;
+  }
+
+  .editProfileAvatar {
+    height: 40px !important;
+    width: 40px !important;
+    object-fit: cover !important;
+    // filter: grayscale(100%) !important;
+    // border: 1px solid red !important;
+  }
+
+  .selectedProfilePhoto {
+    height: 150px !important;
+    width: 150px !important;
+  }
+}

@@ -1,0 +1,46 @@
+@import "src/styles/main";
+
+.navbarWrapper {
+  .MuiToolbar-root {
+    padding-left: 4px !important;
+    padding-right: 10px !important;
+  }
+
+  .profileButton {
+    width: auto !important;
+    text-transform: none !important;
+    border-radius: 20px !important;
+    padding: 5px 10px 5px 5px !important;
+    text-decoration: none !important;
+
+    &:hover {
+      background: #7187c9;
+    }
+
+    .avatar {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .logoutButton {
+    padding: 8px;
+    margin-left: 5px;
+
+    &:hover {
+      background: #7187c9;
+    }
+  }
+
+  .active {
+    background: #7187c9 !important;
+  }
+
+  .appLogo {
+    @include button-camel-casing;
+
+    &:hover {
+      background: transparent !important;
+    }
+  }
+}
