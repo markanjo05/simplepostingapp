@@ -4,12 +4,12 @@ import "firebase/compat/auth";
 
 // update below settings w/ your own firebase config
 export const fbConfig = {
-  apiKey: "AIzaSyD-EenkLuEykZvniwuttxfbv1ZAFjSZr5U",
-  authDomain: "planscreator-269db.firebaseapp.com",
-  projectId: "planscreator-269db",
-  storageBucket: "planscreator-269db.appspot.com",
-  messagingSenderId: "350697489765",
-  appId: "1:350697489765:web:2727a7c5117987e1d5cd8c",
+  apiKey: "xxx",
+  authDomain: "xxx",
+  projectId: "xxx",
+  storageBucket: "xxx",
+  messagingSenderId: "xxx",
+  appId: "xxx",
 };
 
 firebase.initializeApp(fbConfig);
